@@ -60,3 +60,13 @@ body {
   margin: 0 auto;
   color: var(--color-dark);
 }
+/*Header*/
+.header__banner {
+  background-color: var(--color-primary);
+}
+.header__banner_content {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
