@@ -1,0 +1,62 @@
+/*colors*/
+:root {
+    --color-primary: #069;
+    --color-secondary: #6c757d;
+    --color-success: #28a745;
+    --color-info: #17a2b8;
+    --color-warning: #ffc107;
+    --color-danger: #dc3545;
+    --color-light: #f8f9fa;
+    --color-dark: #212529;
+    --color-white: #fff;
+    --color-black: #000;
+    --body-bg-color: #fff;
+    --body-text-color: #212529;
+    --body-link-color: #069;
+    --body-link-hover-color: #069;
+    --mainnav-text-color: #212529;
+    --mainnav-link-color: #212529;
+    --mainnav-link-hover-color: #069;
+    --mainnav-link-active-color: #069;
+    --footer-bg-color: #212529;
+    --footer-text-color: #6c757d;
+    --footer-link-hover-color: #fff;
+}
+/*utilities*/
+:root {
+    --body-font-family: Ubuntu;
+    --body-font-size: 16px;
+    --body-font-weight: 400;
+    --body-font-style: normal;
+    --body-line-height: 1.5;
+    --body-letter-spacing: 0;
+    --heading-font-family: Ubuntu;
+    --heading-font-weight: 700;
+    --heading-font-style: normal;
+    --heading-line-height: 1.4;
+    --heading-letter-spacing: 0;
+    --h1-font-size: 40px;
+    --h2-font-size: 32px;
+    --h3-font-size: 28px;
+    --h4-font-size: 24px;
+    --h5-font-size: 20px;
+    --h6-font-size: 16px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--body-font-family);
+}
+body {
+  font-size: var(--body-font-size);
+  font-weight: var(--body-font-weight);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  color: var(--color-dark);
+}
